@@ -10,7 +10,7 @@
 - we also declare some flags for the buttons and some variables for a "blink without delay"
 - the letsGetStarted function shows us at the beginning that all the LEDs are working properly. In this case we work with delays.
 - in the function setLEDColor we match the buttons with the color of the LEDs so if you press the yellow button the LEDs light up in yellow as well.
--in the function diceToLed we combine the correct LEDs with the value of the dice so that we get the usual appearance.
+- in the function diceToLed we combine the correct LEDs with the value of the dice so that we get the usual appearance.
 - the function rollTheDice shows us a small frequency of flickering through the dice values until the rolled value is displayed
 - for a true random value we work with randomSeed, which is connected to a pin.
 - in the loop we debounce the buttons and roll the dice with blink without delay.
